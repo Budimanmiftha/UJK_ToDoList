@@ -1,0 +1,33 @@
+body {
+    background-color: #e9ecef; /* Warna latar yang lembut */
+  }
+  
+  .card-title {
+    font-weight: 700;
+    color: #2c3e50;
+  }
+  
+  .list-group-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .form-check-label {
+    cursor: pointer;
+  }
+  
+  /* Tambah animasi garis tengah saat selesai */
+  .text-decoration-line-through {
+    transition: color 0.3s ease;
+    color: #6c757d !important;
+  }
+  
+  /* Tombol hapus lebih kecil dan rapih */
+  .btn-outline-danger {
+    font-size: 0.85rem;
+    padding: 0.25rem 0.5rem;
+  }
